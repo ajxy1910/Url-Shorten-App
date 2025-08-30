@@ -27,7 +27,7 @@ This project allows users to convert long URLs into short, shareable links.
 git clone https://github.com/ajxy1910/Url-Shorten-App.git
 cd Url-Shorten-App
 
-Create a virtual environment (recommended):
+## Create a virtual environment (recommended):
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
@@ -37,12 +37,11 @@ pip install flask
 
 Run the app:
 python app.py
-
-Open in your browser:
+## Open in your browser:
 http://127.0.0.1:5000
 
-Usage
 
+##USAGE
 1.Enter a long URL in the form.
 2.Click Shorten URL.
 3.Copy or share the generated short URL.
